@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             "{"
             + "    objs[i].onclick=function()  " +
             "    {  "
-            + "        window.imageListener.openImage(this.src);  " +
+            + "        window.imageListener.showImage(this.src);  " +
             "    }  " +
             "}" +
             "})()");
